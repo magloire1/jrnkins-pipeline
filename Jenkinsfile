@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        IMAGE_ECR_REPO - 'docker tag jenkins-ci:latest 971422713140.dkr.ecr.us-east-1.amazonaws.com/jenkins-ci'
+        IMAGE_ECR_REPO = 'docker tag jenkins-ci:latest 971422713140.dkr.ecr.us-east-1.amazonaws.com/jenkins-ci'
         ECR_REPO = '971422713140.dkr.ecr.us-east-1.amazonaws.com'
 
     }
